@@ -290,13 +290,14 @@ img {
 @media only screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 0 15px;
+    padding: 0 65px;
   }
 }
 
