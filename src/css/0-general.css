@@ -25,6 +25,7 @@ a {
 
 button {
   cursor: pointer;
+  font: inherit;
 }
 
 img {
@@ -40,6 +41,7 @@ img {
   --cards: #f3f3f3;
 }
 
+/* #region Fonts */
 @font-face {
   font-family: 'Gilroy';
   src: url('Gilroy-Regular.eot');
@@ -280,6 +282,12 @@ img {
   font-style: italic;
 }
 
+/* #endregion Fonts */
+
+:root {
+  --font-family: 'Gilroy', sans-serif;
+}
+
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -289,14 +297,14 @@ img {
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 65px;
   }
 }
@@ -316,4 +324,11 @@ img {
   .section {
     padding-top: 100px;
   }
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--main);
+  line-height: 125%;
+  letter-spacing: -0.02em;
 }
