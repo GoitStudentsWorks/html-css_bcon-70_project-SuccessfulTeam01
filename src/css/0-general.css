@@ -290,7 +290,7 @@ img {
 /* #endregion Fonts */
 
 :root {
-  --font-family: 'Gilroy';
+  --font-family: 'Gilroy', sans-serif;
 }
 
 .container {
