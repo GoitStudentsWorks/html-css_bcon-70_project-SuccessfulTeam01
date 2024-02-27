@@ -32,3 +32,44 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/gilroy-bold.woff2') format('woff2'),
+    url('/src/fonts/gilroy-bold.woff') format('woff'),
+    url('/src/fonts/gilroy-bold.ttf') format('ttf');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/gilroy-semibold.woff2') format('woff2'),
+    url('/src/fonts/gilroy-semibold.woff') format('woff'),
+    url('/src/fonts/gilroy-semibold.tff') format('ttf');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/gilroy-medium.woff2') format('woff2'),
+    url('/src/fonts/gilroy-medium.woff') format('woff'),
+    url('/src/fonts/gilroy-medium.ttf') format('ttf');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/gilroy-regular.woff2') format('woff2'),
+    url('/src/fonts/gilroy-regular.woff') format('woff'),
+    url('/src/fonts/gilroy-regular.ttf') format('ttf');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
