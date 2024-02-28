@@ -1,0 +1,78 @@
+.sale {
+}
+.sale-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  /* color: #0c0c0c; */
+  margin-bottom: 24px;
+}
+.sale-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sale-img-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.sale-img-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: fill;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+.sale-main-img {
+}
+.sale-images {
+  width: 52px;
+  height: 54px;
+}
+.sale-title-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background: #f3f3f3;
+}
+
+.sale-box-specification {
+  border-radius: 30px;
+  width: 335px;
+  height: 561px;
+  background: #3350e9;
+  padding: 48px 28px;
+}
+
+.sale-block {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.sale-span-box {
+}
+
+.sale-curent-price {
+}
+.sale-previous-price {
+}
+.sale-discription {
+}
+.sale-list {
+}
+.sale-items {
+}
