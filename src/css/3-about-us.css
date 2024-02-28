@@ -7,7 +7,7 @@
 
 @media only screen and (min-width: 768px) {
   .about-us {
-    
+    gap: 40px;
   }
 }
 
@@ -16,6 +16,9 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
+   align-items: flex-start;
+   justify-content: center;
+
   }
 }
 
@@ -24,7 +27,7 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-  border-radius: 30px;
+border-radius: 30px;
 background: #f3f3f3;
 margin-bottom: 20px;
 padding: 40px 20px;
@@ -33,7 +36,7 @@ padding: 40px 20px;
 @media only screen and (min-width: 768px) {
   .about-descr {
     padding: 80px 60px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     border-radius: 50px;
   }
 }
@@ -41,7 +44,9 @@ padding: 40px 20px;
 @media only screen and (min-width: 1280px) {
   .about-descr {
     padding: 80px 60px;
-    margin: 0;
+   
+    min-width: 580px;
+    min-height: 532px;
   }
 }
 
@@ -79,6 +84,13 @@ margin-bottom: 40px;
   margin-bottom: 20px;
   
 }
+
+@media only screen and (min-width: 1280px) {
+   .first-text-about-us {
+    width: 460px;
+   }
+}
+
 .second-text-about-us {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -94,7 +106,11 @@ margin-bottom: 40px;
     margin-bottom: 60px;
   }
 }
-
+@media only screen and (min-width: 1280px) {
+  .second-text-about-us  {
+    margin-bottom: 40px;
+  }
+}
 .btn-about-us {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -107,9 +123,9 @@ margin-bottom: 40px;
   height: 48px;
   background-color: #3350e9;
   display: block;
- cursor: pointer;
-
+  cursor: pointer;
 }
+
 
 
 /* .image-about-us {
@@ -175,5 +191,7 @@ z-index: 1;
 @media only screen and (min-width: 1280px) {
   .image-about-us  {
     margin: 0;
+    min-width: 530px;
+    min-height: 532px;
   }
 }
