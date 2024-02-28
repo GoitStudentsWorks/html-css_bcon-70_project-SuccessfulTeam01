@@ -18,9 +18,15 @@ ul {
   list-style: none;
 }
 
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+}
+
 a {
   color: currentColor;
-  text-decoration: none;
 }
 
 button {
