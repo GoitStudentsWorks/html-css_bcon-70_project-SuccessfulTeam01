@@ -67,7 +67,6 @@
   text-align: center;
   color: var(--background);
   margin-bottom: 92px;
-  letter-spacing: -0.02em;
 }
 
 .footer-down-container {
@@ -117,7 +116,7 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 140%;
-  letter-spacing: -0.02em;
+
   color: rgba(251, 251, 251, 0.5);
   margin-bottom: 8px;
 }
@@ -130,7 +129,7 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 140%;
-  letter-spacing: -0.02em;
+
   text-align: right;
   color: rgba(251, 251, 251, 0.5);
 }
@@ -181,7 +180,6 @@
     font-size: 28px;
     line-height: 114%;
     margin-bottom: 100px;
-    letter-spacing: -0.02em;
   }
   .footer-down-container {
     gap: 62px;
@@ -269,7 +267,6 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 114%;
-    letter-spacing: -0.02em;
     text-align: center;
     color: var(--background);
     display: block;
