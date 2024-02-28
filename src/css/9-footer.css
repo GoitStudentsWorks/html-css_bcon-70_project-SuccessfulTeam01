@@ -37,6 +37,10 @@
   opacity: 0.8;
 }
 
+.footer-social-link:active .footer-social-icon {
+  opacity: 1;
+}
+
 .footer-desc-text {
   display: none;
 }
