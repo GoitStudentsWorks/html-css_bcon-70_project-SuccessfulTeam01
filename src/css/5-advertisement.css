@@ -1,0 +1,83 @@
+/* .section {}
+
+.conainer {} */
+.adventure {
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/advertisement/advertisement-background-mob320@1x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+}
+
+@media screen and (max-width:768px) and (max-resolution:192dpi) {
+    .adventure {
+        background-image: url(../img/advertisement/advertisement-background-mob320@2x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+}
+
+@media screen and (min-width:768px) {
+    .adventure {
+        background-image: url(../img/advertisement/advertisement-background-tabl768@1x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+}
+
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .adventure {
+        background-image: url(../img/advertisement/advertisement-background-tabl768@2x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .adventure {
+        background-image: url(../img/advertisement/advertisement-background-desktop@1x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+}
+
+@media screen and (min-width:1280px) and (min-resolution:192dpi) {
+    .adventure {
+        background-image: url(../img/advertisement/advertisement-background-desktop@2x.png), linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+}
+
+.advertisement-text {
+    padding-top: 60px;
+    margin-bottom: 28px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-text {
+        padding-top: 80px;
+        margin-bottom: 32px;
+        font-size: 48px;
+        line-height: 92%;
+    }
+}
+
+.advertisement-text-part {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-button {
+    padding: 0;
+
+    margin-bottom: 60px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+
+    min-width: 160px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
