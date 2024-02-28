@@ -44,6 +44,7 @@
 
 .catalog-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   flex-direction: column;
@@ -51,12 +52,15 @@
 
 @media only screen and (min-width: 768px) {
   .catalog-list {
-    flex-wrap: wrap;
-    row-gap: 16px;
-    column-gap: 32px;
+    flex-direction: row;
+    row-gap: 32px;
+    column-gap: 16px;
   }
-  .catalog-item {
-    flex-basis: calc((100% - 16px) / 2);
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-list {
+    column-gap: 23px;
   }
 }
 
@@ -76,16 +80,35 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .catalog-item :nth-last-child(-n + 2) {
+  .catalog-item:nth-last-child(-n + 2) {
+    display: unset;
+  }
+  .catalog-item {
+    width: calc((100% - 16px) / 2);
+  }
+  .catalog-card {
     display: flex;
+    flex-direction: column;
   }
 }
 
-.catalog-img {
+@media only screen and (min-width: 1280px) {
+  .catalog-item {
+    width: calc((100% - 46px) / 3);
+  }
 }
+
 .catalog-content {
   margin-top: 10px;
 }
+
+@media only screen and (min-width: 768px) {
+  .catalog-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .catalog-model {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -94,6 +117,15 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
+@media only screen and (min-width: 768px) {
+  .catalog-model {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
 .catalog-price {
   font-family: 'Gilroy', sans-serif;
   font-weight: 400;
@@ -117,4 +149,10 @@
   text-align: center;
   color: #fbfbfb;
   margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-catalog {
+    display: none;
+  }
 }
