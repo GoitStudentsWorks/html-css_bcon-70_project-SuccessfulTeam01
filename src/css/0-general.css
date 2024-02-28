@@ -18,9 +18,15 @@ ul {
   list-style: none;
 }
 
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+}
+
 a {
   color: currentColor;
-  text-decoration: none;
 }
 
 button {
@@ -295,24 +301,21 @@ img {
 
 .container {
   min-width: 320px;
-  width: 375px;
-  /* max-width: 375px; */
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    /* max-width: 768px; */
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    /* max-width: 1280px; */
+    max-width: 1280px;
     padding: 0 65px;
   }
 }
@@ -339,6 +342,7 @@ body {
   color: var(--main);
   line-height: 125%;
   letter-spacing: -0.02em;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .visually-hidden {
