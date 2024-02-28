@@ -342,6 +342,7 @@ body {
   color: var(--main);
   line-height: 125%;
   letter-spacing: -0.02em;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .visually-hidden {
