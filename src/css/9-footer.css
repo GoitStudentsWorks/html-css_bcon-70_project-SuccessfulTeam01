@@ -95,7 +95,6 @@
   color: var(--background);
 }
 .footer-adress {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
@@ -116,7 +115,6 @@
   background-color: rgba(251, 251, 251, 0.1);
 }
 .footer-text-rights {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 10px;
   line-height: 140%;
