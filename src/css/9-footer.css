@@ -37,6 +37,10 @@
   opacity: 0.8;
 }
 
+.footer-social-link:active .footer-social-icon {
+  opacity: 1;
+}
+
 .footer-desc-text {
   display: none;
 }
@@ -253,6 +257,15 @@
   .footer-social-icon {
     width: 20px;
     height: 20px;
+    transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-social-link:hover .footer-social-icon {
+    opacity: 1;
+  }
+
+  .footer-social-link:focus .footer-social-icon {
+    opacity: 1;
   }
 
   .footer-desc-text {

@@ -2,7 +2,8 @@
   <div class="container">
     <div class="hero-wrap">
       <div class="hero-content">
-        <h1 class="hero-title">Welcome to our <span class="hero-title-span">collection</span> of premium watches</h1>
+        <h1 class="hero-title">Welcome to our <span class="hero-title-span">collection</span> of premium&nbsp;watches
+        </h1>
         <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
           lifestyle.
           From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
@@ -11,40 +12,49 @@
         <div class="hero-people-images">
 
           <div class="hero-people-wrap">
-            <img class="hero-people-image" src="../img/hero/avatar/Ellipse 21.png" width="60" height="60"
-              alt="Victoria Romashenko">
+            <img class="hero-people-image" srcset="
+            ./img/hero/avatar/victoria@1x.png 1x,
+            ./img/hero/avatar/victoria@2x.png 2x
+          " src="./img/hero/avatar/victoria@1x.png" width="60" height="60" alt="Victoria Romashenko">
           </div>
 
-          <div class="hero-people-wrap"><img class="hero-people-image" src="../img/hero/avatar/Ellipse 22.png"
-              width="60" height="60" alt="John Wax"></div>
+          <div class="hero-people-wrap">
+            <img class="hero-people-image" srcset="
+            ./img/hero/avatar/john@1x.png 1x, 
+            ./img/hero/avatar/john@2x.png 2x" src="./img/hero/avatar/john@1x.png" width="60" height="60"
+              alt="John Wax">
+          </div>
 
           <div class="hero-people-wrap">
-            <img class="hero-people-image" src="../img/hero/avatar/Ellipse 23.png" width="60" height="60"
-              alt="Anastasia Trachuk">
+            <img class="hero-people-image" srcset="
+            ./img/hero/avatar/anastasia@1x.png 1x,
+            ./img/hero/avatar/anastasia@2x.png 2x
+          " src="./img/hero/avatar/anastasia@1x.png" width="60" height="60" alt="Anastasia Trachuk">
           </div>
 
         </div>
-        <a href="#reviews" class="hero-link">Scroll down</a>
+        <a href="#footer" class="hero-link">Scroll down</a>
       </div>
     </div>
-    <picture>
-      <!-- Desktop screen -->
-      <source media="(min-width: 1280px)" srcset="
-      ../img/hero/desktop/hero_decktop@1x.jpg 1x,
-      ../img/hero/desktop/hero_decktop@2x.jpg 2x
-        ">
-      <!-- Tablet screen -->
-      <source media="(min-width: 768px)" srcset="
-      ../img/hero/tablet/hero_tablet@1x.jpg 1x,
-      ../img/hero/tablet/hero_tablet@2x.jpg 2x
-        ">
-      <!-- Mobile screen -->
-      <source media="(max-width: 767px)" srcset="
-      ../img/hero/mobile/hero_mobile@1x.jpg 1x,
-      ../img/hero/mobile/hero_mobile@2x.jpg 2x
-        ">
-
-      <img class="hero-image" src="../img/hero/mobile/hero_mobile@1x.jpg" alt="watches" width="335" height="366">
-    </picture>
+    <div class="hero-with-gradient">
+      <picture>
+        <!-- Desktop screen -->
+        <source media="(min-width: 1280px)" srcset="
+        ./img/hero/desktop/hero_decktop@1x.png 1x,
+        ./img/hero/desktop/hero_decktop@2x.png 2x
+          ">
+        <!-- Tablet screen -->
+        <source media="(min-width: 768px)" srcset="
+        ./img/hero/tablet/hero_tablet@1x.png 1x,
+        ./img/hero/tablet/hero_tablet@2x.png 2x
+          ">
+        <!-- Mobile screen -->
+        <source media="(max-width: 767px)" srcset="
+        ./img/hero/mobile/hero_mobile@1x.png 1x,
+        ./img/hero/mobile/hero_mobile@2x.png 2x
+          ">
+        <img class="hero-image" src="./img/hero/mobile/hero_mobile@1x.png" alt="watches">
+      </picture>
+    </div>
   </div>
 </section>
