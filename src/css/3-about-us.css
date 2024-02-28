@@ -88,6 +88,9 @@ margin-bottom: 40px;
 @media only screen and (min-width: 1280px) {
    .first-text-about-us {
     width: 460px;
+    font-size: 16px;
+    line-height: 125%;
+
    }
 }
 
@@ -109,6 +112,8 @@ margin-bottom: 40px;
 @media only screen and (min-width: 1280px) {
   .second-text-about-us  {
     margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 125%;
   }
 }
 .btn-about-us {
@@ -125,33 +130,6 @@ margin-bottom: 40px;
   display: block;
   cursor: pointer;
 }
-
-
-
-/* .image-about-us {
-  border-radius: 30px;
-width: 335px;
-height: 446px;
-background-image: linear-gradient(
-  rgba(12, 12, 12, 0.2),
-  rgba(12, 12, 12, 0.2)
-),
-url("../img/about-us/Rectangle11Mob@1x.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #fbfbfb;
-}
-
-@media (min-resolution: 192dpi) {
-  .image-about-us {
-    background-image: linear-gradient(
-  rgba(12, 12, 12, 0.2),
-  rgba(12, 12, 12, 0.2)
-),
-url("../img/about-us/Rectangle11Mob@2x.png");
-  }
-} */
 
 .image-about-us {
   position: relative;
@@ -173,8 +151,8 @@ url("../img/about-us/Rectangle11Mob@2x.png");
   left: 0;
   right: 0;
   bottom: 0;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   background: linear-gradient(
   rgba(12, 12, 12, 0.2),
   rgba(12, 12, 12, 0.2)
