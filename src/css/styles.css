@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import url('./fonts.css');
 @import url('./0-general.css');
 @import url('./1-header.css');
 @import url('./2-hero.css');
