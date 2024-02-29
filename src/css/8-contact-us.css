@@ -37,6 +37,7 @@
   .contact-div-forma {
     padding: 50px 122px;
     min-height: 556px;
+    border-radius: 50px;
   }
 }
 
@@ -49,13 +50,17 @@
 
 .contact-p {
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
-  letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
   .contact-p {
+    font-size: 16px;
+    line-height: 1.25;
     margin-bottom: 32px;
   }
 }
