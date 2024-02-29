@@ -7,7 +7,7 @@
 
 @media only screen and (min-width: 768px) {
   .about-us {
-    
+    gap: 40px;
   }
 }
 
@@ -16,6 +16,9 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
+   align-items: flex-start;
+   justify-content: center;
+
   }
 }
 
@@ -24,7 +27,7 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-  border-radius: 30px;
+border-radius: 30px;
 background: #f3f3f3;
 margin-bottom: 20px;
 padding: 40px 20px;
@@ -33,7 +36,7 @@ padding: 40px 20px;
 @media only screen and (min-width: 768px) {
   .about-descr {
     padding: 80px 60px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     border-radius: 50px;
   }
 }
@@ -41,7 +44,9 @@ padding: 40px 20px;
 @media only screen and (min-width: 1280px) {
   .about-descr {
     padding: 80px 60px;
-    margin: 0;
+   
+    min-width: 580px;
+    min-height: 532px;
   }
 }
 
@@ -79,6 +84,16 @@ margin-bottom: 40px;
   margin-bottom: 20px;
   
 }
+
+@media only screen and (min-width: 1280px) {
+   .first-text-about-us {
+    width: 460px;
+    font-size: 16px;
+    line-height: 125%;
+
+   }
+}
+
 .second-text-about-us {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -94,7 +109,13 @@ margin-bottom: 40px;
     margin-bottom: 60px;
   }
 }
-
+@media only screen and (min-width: 1280px) {
+  .second-text-about-us  {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
 .btn-about-us {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -107,35 +128,8 @@ margin-bottom: 40px;
   height: 48px;
   background-color: #3350e9;
   display: block;
- cursor: pointer;
-
+  cursor: pointer;
 }
-
-
-/* .image-about-us {
-  border-radius: 30px;
-width: 335px;
-height: 446px;
-background-image: linear-gradient(
-  rgba(12, 12, 12, 0.2),
-  rgba(12, 12, 12, 0.2)
-),
-url("../img/about-us/Rectangle11Mob@1x.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #fbfbfb;
-}
-
-@media (min-resolution: 192dpi) {
-  .image-about-us {
-    background-image: linear-gradient(
-  rgba(12, 12, 12, 0.2),
-  rgba(12, 12, 12, 0.2)
-),
-url("../img/about-us/Rectangle11Mob@2x.png");
-  }
-} */
 
 .image-about-us {
   position: relative;
@@ -157,8 +151,8 @@ url("../img/about-us/Rectangle11Mob@2x.png");
   left: 0;
   right: 0;
   bottom: 0;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   background: linear-gradient(
   rgba(12, 12, 12, 0.2),
   rgba(12, 12, 12, 0.2)
@@ -175,5 +169,7 @@ z-index: 1;
 @media only screen and (min-width: 1280px) {
   .image-about-us  {
     margin: 0;
+    min-width: 530px;
+    min-height: 532px;
   }
 }
