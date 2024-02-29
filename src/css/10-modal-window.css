@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 200px;
+    width: clamp(200px, (100vw - 320px) * 300 / 448 + 200px, 330px);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -143,8 +143,10 @@
     }
 
     .mobile-menu {
-        width: 330px;
+        width: clamp(30%, 100vw, 330px);
     }
 }
+
+
 
 /*Mobile-menu-modal-end*/
