@@ -88,6 +88,10 @@
   margin-bottom: 48px;
 }
 
+.footer-nav-item {
+  line-height: 0%;
+}
+
 .footer-nav-link {
   font-weight: 500;
   font-size: 12px;
