@@ -82,10 +82,12 @@
 .footer-nav-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  column-gap: 16px;
+  row-gap: 8px;
   flex-basis: 147px;
   margin-bottom: 48px;
 }
+
 .footer-nav-link {
   font-weight: 500;
   font-size: 12px;
@@ -98,7 +100,7 @@
   font-size: 12px;
   line-height: 133%;
   color: var(--background);
-  width: 83px;
+  width: 83.5px;
 }
 
 .footer-under-container {
@@ -274,6 +276,7 @@
     display: block;
     margin: 0 auto;
     max-width: 523px;
+    letter-spacing: -0.02em;
   }
 
   .footer-text {
