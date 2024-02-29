@@ -112,6 +112,7 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+  margin-top: 8px;
 }
 .btn-catalog {
   margin: 0 auto;
