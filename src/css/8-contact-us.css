@@ -1,8 +1,10 @@
+/* #region Contact Us */
 .contact-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   margin-bottom: 40px;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .contact-title {
@@ -49,6 +51,7 @@
   font-weight: 500;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
+  letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -67,18 +70,20 @@
   height: 42px;
   margin: 0 auto;
   margin-bottom: 18px;
+  outline: transparent;
 }
 .contact-input::placeholder {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
   color: #0c0c0c;
   min-width: 100px;
+  letter-spacing: -0.02em;
 }
 
-.contact-input:checked {
+.contact-input:focus {
   border: 1px solid #3350e9;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-textarea {
@@ -90,6 +95,7 @@
   resize: none;
   overflow: hidden;
   margin-bottom: 28px;
+  outline: transparent;
 }
 
 @media only screen and (min-width: 768px) {
@@ -100,6 +106,10 @@
 .contact-textarea::placeholder {
   font-size: 14px;
   line-height: 1.28571;
+}
+.contact-textarea:focus {
+  border: 1px solid #3350e9;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-btn {
   font-weight: 500;
@@ -124,10 +134,11 @@
 .contact-btn:hover,
 .contact-btn:focus {
   background-color: #1f3cd4;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-div-img {
-  /* width: 100%; */
 }
 .contact-img {
   margin: 0 auto;
 }
+/* #endregion Contact Us */
