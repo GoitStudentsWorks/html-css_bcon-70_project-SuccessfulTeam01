@@ -120,3 +120,13 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+::-webkit-scrollbar {
+  height: .5rem;
+  width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 30px;
+}

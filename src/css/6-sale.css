@@ -1,5 +1,5 @@
-.sale {
-}
+.sale {}
+
 .sale-title {
   font-weight: 600;
   font-size: 32px;
@@ -32,6 +32,7 @@
     gap: 20px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .sale-wrapper {
     flex-wrap: nowrap;
@@ -76,8 +77,7 @@
   }
 }
 
-.sale-main-img {
-}
+.sale-main-img {}
 
 .sale-images {
   width: 52px;
@@ -101,6 +101,7 @@
   height: 385px;
   background: #f3f3f3;
 }
+
 @media only screen and (min-width: 768px) {
   .sale-title-img-wrap {
     display: flex;
@@ -145,6 +146,7 @@
   color: #fbfbfb;
   margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 768px) {
   .sale-box-title {
     font-size: 32px;
@@ -194,6 +196,7 @@
   color: #fbfbfb;
   margin-right: 9px;
 }
+
 @media only screen and (min-width: 768px) {
   .sale-curent-price {
     font-size: 20px;
@@ -254,5 +257,19 @@
   .sale-items {
     font-size: 14px;
     line-height: 129%;
+  }
+}
+
+.select-currency-alone {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 13px;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .select-currency-alone {
+    font-size: 14px;
   }
 }
