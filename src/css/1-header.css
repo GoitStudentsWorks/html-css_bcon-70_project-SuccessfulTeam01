@@ -10,7 +10,7 @@ header .container {
 
 .header-logo {
   display: inline-block;
-  padding: 20px 0;
+  padding: 27px 0;
 
   font-weight: 500;
   color: var(--main);
