@@ -1,11 +1,8 @@
-.sale {}
-
 .sale-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  /* color: #0c0c0c; */
   margin-bottom: 24px;
 }
 
@@ -43,7 +40,6 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
-  /* flex-shrink: 1; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -206,7 +202,6 @@
 }
 
 .sale-previous-price {
-  /* font-weight: 400; */
   font-size: 12px;
   line-height: 117%;
   letter-spacing: -0.02em;
@@ -262,10 +257,15 @@
 
 .select-currency-alone {
   border: none;
-  background-color: transparent;
   outline: none;
   font-size: 13px;
   color: #fbfbfb;
+
+  font-weight: 600;
+  padding: 5px;
+  background: rgba(251, 251, 251, 0.1);
+  padding-right: 0px;
+  border-radius: 2px;
 }
 
 @media only screen and (min-width: 768px) {
