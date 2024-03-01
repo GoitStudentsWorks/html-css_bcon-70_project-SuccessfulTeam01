@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   navLinks.forEach(function (link) {
     link.addEventListener('click', function (event) {
-      event.preventDefault();
-
       navLinks.forEach(function (link) {
         link.classList.remove('active');
       });
@@ -37,8 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   navLinks.forEach(function (link) {
     link.addEventListener('click', function (event) {
-      event.preventDefault();
-
       navLinks.forEach(function (link) {
         link.classList.remove('active');
       });
@@ -51,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //Реализация API конвертера валют
 
 function updatePrices(event) {
-  const apiKey = '2c9ccb1cae386665bd627fb2';
+  const apiKey = 'f5838e7d2deb3833a07aaa21';
   const selectElement = event.target;
   const fromCurrency = 'EUR';
   const toCurrency = selectElement.value;
