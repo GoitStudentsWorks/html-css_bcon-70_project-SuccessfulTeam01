@@ -292,11 +292,11 @@
   }
 
   .footer-nav-item {
-    transition: scale 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
   }
   .footer-nav-item:hover,
   .footer-nav-item:focus {
-    scale: 1.2;
+    transform: scale(1.2);
   }
   .footer-tel-link:hover,
   .footer-tel-link:focus {
