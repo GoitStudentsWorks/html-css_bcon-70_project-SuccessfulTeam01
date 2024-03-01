@@ -125,6 +125,15 @@ header .container {
     column-gap: 40px;
   }
 
+  .header-nav-item {
+    transition: scale .25s ease-in-out;
+  }
+
+  .header-nav-item:hover,
+  .header-nav-item:focus {
+    scale: 1.2;
+  }
+
   .header-nav-link {
     position: relative;
     font-weight: 500;
