@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //Реализация API конвертера валют
 
 function updatePrices(event) {
-  const apiKey = 'f5838e7d2deb3833a07aaa21';
+  const apiKey = 'a0b862c967e5a8ed671014e5';
   const selectElement = event.target;
   const fromCurrency = 'EUR';
   const toCurrency = selectElement.value;
@@ -124,3 +124,13 @@ document.addEventListener('DOMContentLoaded', event => {
     }
   });
 });
+
+//Реализация preloader
+window.onload = function () {
+  var preloader = document.getElementById('preloader');
+  preloader.classList.add('fadeOut');
+
+  setTimeout(function () {
+    preloader.style.display = 'none';
+  }, 800);
+};
