@@ -126,12 +126,12 @@ header .container {
   }
 
   .header-nav-item {
-    transition: scale .25s ease-in-out;
+    transition: transform .25s ease-in-out;
   }
 
   .header-nav-item:hover,
   .header-nav-item:focus {
-    scale: 1.2;
+    scale: (1.2);
   }
 
   .header-nav-link {
