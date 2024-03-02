@@ -134,3 +134,53 @@ window.onload = function () {
     preloader.style.display = 'none';
   }, 800);
 };
+
+//Реализация слайдера
+$('.slick-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+  ],
+});
+
+//Реализация плавного скрола по кнопке
+let calcScrollValue = () => {
+  let scrollProgress = document.getElementById('progress');
+  let pos = document.documentElement.scrollTop;
+
+  let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrollValue = Math.round((pos * 100) / calcHeight);
+
+  if (pos > 100) {
+    scrollProgress.style.display = 'grid';
+  } else {
+    scrollProgress.style.display = 'none';
+  }
+  scrollProgress.addEventListener('click', () => {
+    document.documentElement.scrollTop = 0;
+  });
+  scrollProgress.style.background = `conic-gradient(#3350e9 ${scrollValue}%, #404040 ${scrollValue}%)`;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  calcScrollValue();
+  window.onscroll = calcScrollValue;
+});
