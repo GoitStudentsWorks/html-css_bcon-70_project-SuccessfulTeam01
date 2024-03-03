@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   background-color: #fbfbfb;
-  z-index: 99;
+  z-index: 1000;
 }
 
 #preloader.fadeOut {
@@ -160,7 +160,7 @@
   #progress {
     position: fixed;
     background-color: var(--accent);
-    z-index: 1000;
+    z-index: 999;
     bottom: 3%;
     right: 50px;
     width: 50px;
@@ -217,14 +217,13 @@
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
-.header-social-item+.header-social-item {
+.header-social-item + .header-social-item {
   animation: 1.2s ease-out 0s 1 slideInFromRight;
 }
 
 .header-social-item:last-child {
   animation: 1.4s ease-out 0s 1 slideInFromRight;
 }
-
 
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
@@ -265,7 +264,6 @@ header .container {
 /*Mobile-menu-end*/
 
 @media only screen and (min-width: 768px) {
-
   .header-logo {
     font-size: 20px;
     padding: 34px 0;
@@ -312,7 +310,7 @@ header .container {
   }
 
   .header-nav-item {
-    transition: transform .25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
   }
 
   .header-nav-item:hover,
