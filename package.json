@@ -1,11 +1,11 @@
 {
-  "name": "project-successfull-team",
+  "name": "html-css_bcon-70_project-SuccessfulTeam01",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-SuccessfulTeam01/",
+    "build": "vite build --base=/html-css_bcon-70_project-SuccessfulTeam01/",
     "preview": "vite preview"
   },
   "devDependencies": {
