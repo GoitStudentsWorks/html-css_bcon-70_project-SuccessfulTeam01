@@ -88,17 +88,13 @@
   flex-basis: 147px;
   margin-bottom: 48px;
 }
-
-.footer-nav-item {
-  line-height: 0%;
-}
-
 .footer-nav-link {
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
   text-align: center;
   color: var(--background);
+  display: block;
 }
 .footer-adress {
   font-weight: 500;
