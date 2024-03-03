@@ -134,3 +134,28 @@ window.onload = function () {
     preloader.style.display = 'none';
   }, 800);
 };
+
+//Реализация scroll-up
+
+let calcScrollValue = () => {
+  let scrollProgress = document.getElementById('progress');
+  let pos = document.documentElement.scrollTop;
+
+  let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrollValue = Math.round((pos * 100) / calcHeight);
+
+  if (pos > 100) {
+    scrollProgress.style.display = 'grid';
+  } else {
+    scrollProgress.style.display = 'none';
+  }
+  scrollProgress.addEventListener('click', () => {
+    document.documentElement.scrollTop = 0;
+  });
+  scrollProgress.style.background = `conic-gradient(#3350e9 ${scrollValue}%, #404040 ${scrollValue}%)`;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  calcScrollValue();
+  window.onscroll = calcScrollValue;
+});
